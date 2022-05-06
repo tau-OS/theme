@@ -21,7 +21,7 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
-    - name: Install dependencies
+    - name: Build Themes
       run: pnpm build:all
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.0.0
